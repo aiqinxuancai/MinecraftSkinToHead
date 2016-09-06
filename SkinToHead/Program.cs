@@ -23,7 +23,7 @@ namespace SkinToHead
         /// 从skin转换到头像
         /// </summary>
         /// <param name="_image">skin文件的路径</param>
-        /// <param name="_size">size必须是8的倍数</param>
+        /// <param name="_size">size必须是8的倍数 16 32 64 ...</param>
         static bool SkinToHeadFile(string _image, int _size)
         {
             if (_size % 8 != 0) //不等于8的倍数
